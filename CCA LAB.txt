@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Page</title>
+</head>
+<body>
+	<form action="HelloServlet" method="post">
+		Name: <input type="text" name="Username" /><br/>
+		Sap ID: <input type="text" name="Usersap" /><br/>
+		Rollno: <input type="text" name="Userroll" /><br/>
+		Address: <input type="text" name="Useraddress" /><br/>
+		Country: <select name="UserCountry">
+			<option>India</option>
+			<option>Pakistan</option>
+			<option>Others</option>
+		</select><br/>
+		<input type="submit" value="Register" />
+	</form>
+</body>
+</html>
